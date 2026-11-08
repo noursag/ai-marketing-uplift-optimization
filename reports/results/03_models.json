@@ -1,0 +1,342 @@
+{
+  "T_params": {
+    "No E-Mail": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 200
+    },
+    "Mens E-Mail": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 50
+    },
+    "Womens E-Mail": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 200
+    }
+  },
+  "Tconv_params": {
+    "No E-Mail": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 200
+    },
+    "Mens E-Mail": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 50
+    },
+    "Womens E-Mail": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 200
+    }
+  },
+  "tree_params": {
+    "Mens E-Mail": {
+      "max_depth": 2,
+      "min_leaf": 1000,
+      "min_t": 2
+    },
+    "Womens E-Mail": {
+      "max_depth": 2,
+      "min_leaf": 1000,
+      "min_t": 2
+    }
+  },
+  "tree_tuning": [
+    {
+      "max_depth": 2,
+      "min_leaf": 500,
+      "min_t": 0.0,
+      "qini_mens": -0.0004538747091878195,
+      "qini_womens": 0.0031937024945711528,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": true,
+      "chosen_womens": false
+    },
+    {
+      "max_depth": 2,
+      "min_leaf": 500,
+      "min_t": 2.0,
+      "qini_mens": -0.00039897869123572613,
+      "qini_womens": 0.0035981602709121135,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": true,
+      "chosen_womens": false
+    },
+    {
+      "max_depth": 2,
+      "min_leaf": 1000,
+      "min_t": 0.0,
+      "qini_mens": -0.0003273165798482608,
+      "qini_womens": 0.0031228227539680485,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": true,
+      "chosen_womens": false
+    },
+    {
+      "max_depth": 2,
+      "min_leaf": 1000,
+      "min_t": 2.0,
+      "qini_mens": -0.00032396617149290166,
+      "qini_womens": 0.0035981602709121135,
+      "within_1se_mens": true,
+      "chosen_mens": true,
+      "within_1se_womens": true,
+      "chosen_womens": true
+    },
+    {
+      "max_depth": 3,
+      "min_leaf": 500,
+      "min_t": 0.0,
+      "qini_mens": -0.0007472519323996826,
+      "qini_womens": 0.002847078808805057,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": false,
+      "chosen_womens": false
+    },
+    {
+      "max_depth": 3,
+      "min_leaf": 500,
+      "min_t": 2.0,
+      "qini_mens": -0.00039353606138792935,
+      "qini_womens": 0.00345676741181339,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": true,
+      "chosen_womens": false
+    },
+    {
+      "max_depth": 3,
+      "min_leaf": 1000,
+      "min_t": 0.0,
+      "qini_mens": -0.0004422497134432754,
+      "qini_womens": 0.0029732271892238937,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": true,
+      "chosen_womens": false
+    },
+    {
+      "max_depth": 3,
+      "min_leaf": 1000,
+      "min_t": 2.0,
+      "qini_mens": -0.00032396617149290166,
+      "qini_womens": 0.0035981602709121135,
+      "within_1se_mens": true,
+      "chosen_mens": false,
+      "within_1se_womens": true,
+      "chosen_womens": false
+    }
+  ],
+  "tree_rules": {
+    "Mens E-Mail": [
+      {
+        "rule": "zip_code_Rural = yes",
+        "uplift": 0.09433186133753774,
+        "n": 1869
+      },
+      {
+        "rule": "zip_code_Rural = no",
+        "uplift": 0.08145883009616549,
+        "n": 10915
+      }
+    ],
+    "Womens E-Mail": [
+      {
+        "rule": "womens = yes",
+        "uplift": 0.07414287296040635,
+        "n": 7140
+      },
+      {
+        "rule": "womens = no",
+        "uplift": 0.012206016697896602,
+        "n": 5668
+      }
+    ]
+  },
+  "train_crossfit_qini": [
+    {
+      "model": "T-learner",
+      "mens": -0.0002832532888574907,
+      "womens": 0.0016840193858994306
+    },
+    {
+      "model": "X-learner",
+      "mens": 0.0006392765988511365,
+      "womens": 0.0018769658223654392
+    },
+    {
+      "model": "S-learner",
+      "mens": 0.0007075907827762268,
+      "womens": 0.002450106459161121
+    },
+    {
+      "model": "Uplift tree",
+      "mens": -0.00032396617149290166,
+      "womens": 0.0035981602709121135
+    },
+    {
+      "model": "Propensity",
+      "mens": 0.002460241904254621,
+      "womens": 0.0009149730655080724
+    },
+    {
+      "model": "Random",
+      "mens": -0.0006351953336165492,
+      "womens": -5.5489763991733304e-05
+    }
+  ],
+  "deploy_candidate": {
+    "mens": "S-learner",
+    "womens": "Uplift tree"
+  },
+  "train_sanity_qini": {
+    "mens": {
+      "qini_T_oof": -0.0002832532888574907,
+      "qini_random": -0.0006351953336165492
+    },
+    "womens": {
+      "qini_T_oof": 0.0016840193858994306,
+      "qini_random": -5.5489763991733304e-05
+    }
+  },
+  "ate_train_visit": {
+    "Mens E-Mail": 0.07657179625983626,
+    "Womens E-Mail": 0.04524991578643614
+  },
+  "default_arm": "Mens E-Mail",
+  "x_blend_g": {
+    "Mens E-Mail": 0.5000195564594986,
+    "Womens E-Mail": 0.500975952529669
+  },
+  "action_shares": {
+    "T": {
+      "Mens E-Mail": 0.699765625,
+      "No E-Mail": 0.013984375,
+      "Womens E-Mail": 0.28625
+    },
+    "X": {
+      "Mens E-Mail": 0.798203125,
+      "No E-Mail": 0.0,
+      "Womens E-Mail": 0.201796875
+    },
+    "S": {
+      "Mens E-Mail": 0.7290625,
+      "No E-Mail": 0.000234375,
+      "Womens E-Mail": 0.270703125
+    },
+    "UT": {
+      "Mens E-Mail": 1.0,
+      "No E-Mail": 0.0,
+      "Womens E-Mail": 0.0
+    }
+  },
+  "segment_shares": {
+    "persuadable": 0.9775,
+    "sure thing": 0.01203125,
+    "sleeping dog": 0.00921875,
+    "lost cause": 0.00125
+  },
+  "base_rate_control": 0.10615661425330516,
+  "profiles": {
+    "mens": [
+      {
+        "mens": "0",
+        "uplift_mens": 0.07268609754710613,
+        "uplift_womens": 0.07283784615375136
+      },
+      {
+        "mens": "1",
+        "uplift_mens": 0.07823389232743833,
+        "uplift_womens": 0.020632258971463265
+      }
+    ],
+    "womens": [
+      {
+        "womens": "0",
+        "uplift_mens": 0.071981197217082,
+        "uplift_womens": 0.01162792565128191
+      },
+      {
+        "womens": "1",
+        "uplift_mens": 0.07885675531155827,
+        "uplift_womens": 0.07063634899933612
+      }
+    ],
+    "newbie": [
+      {
+        "newbie": "0",
+        "uplift_mens": 0.08278446304357057,
+        "uplift_womens": 0.04558835391699707
+      },
+      {
+        "newbie": "1",
+        "uplift_mens": 0.06886563870455473,
+        "uplift_womens": 0.042422594813977345
+      }
+    ],
+    "channel": [
+      {
+        "channel": "Multichannel",
+        "uplift_mens": 0.07298696327953567,
+        "uplift_womens": 0.042099770309437005
+      },
+      {
+        "channel": "Phone",
+        "uplift_mens": 0.07920300885313333,
+        "uplift_womens": 0.050067899059801003
+      },
+      {
+        "channel": "Web",
+        "uplift_mens": 0.07306280868376579,
+        "uplift_womens": 0.03843509720377709
+      }
+    ],
+    "zip_code": [
+      {
+        "zip_code": "Rural",
+        "uplift_mens": 0.05948580445322424,
+        "uplift_womens": 0.030564691712264242
+      },
+      {
+        "zip_code": "Surburban",
+        "uplift_mens": 0.07734439874650496,
+        "uplift_womens": 0.04807145460094461
+      },
+      {
+        "zip_code": "Urban",
+        "uplift_mens": 0.0800254210033077,
+        "uplift_womens": 0.044403431923121114
+      }
+    ],
+    "recency_band": [
+      {
+        "recency_band": "1-3",
+        "uplift_mens": 0.0818904907307197,
+        "uplift_womens": 0.04243375018528891
+      },
+      {
+        "recency_band": "4-6",
+        "uplift_mens": 0.08221234018309147,
+        "uplift_womens": 0.039737323113572726
+      },
+      {
+        "recency_band": "7-9",
+        "uplift_mens": 0.06510174635089848,
+        "uplift_womens": 0.04839051118899306
+      },
+      {
+        "recency_band": "10-12",
+        "uplift_mens": 0.06967604316976464,
+        "uplift_womens": 0.04654786894110751
+      }
+    ]
+  }
+}

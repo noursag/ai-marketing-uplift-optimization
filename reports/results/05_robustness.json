@@ -1,0 +1,551 @@
+{
+  "segments": [
+    {
+      "segment": "men's only",
+      "customers": 28818,
+      "share": 0.45028125,
+      "visit_rate_no_email": 0.09981323926125753,
+      "uplift_mens": 0.06915516417042274,
+      "uplift_mens_lo": 0.059549925604048634,
+      "uplift_mens_hi": 0.07876040273679684,
+      "uplift_womens": 0.011078467244666393,
+      "uplift_womens_lo": 0.0024075179712436633,
+      "uplift_womens_hi": 0.019749416518089122
+    },
+    {
+      "segment": "women's only",
+      "customers": 28734,
+      "share": 0.44896875,
+      "visit_rate_no_email": 0.09580838323353294,
+      "uplift_mens": 0.0705795766326878,
+      "uplift_mens_lo": 0.06105799460723961,
+      "uplift_mens_hi": 0.08010115865813598,
+      "uplift_womens": 0.07398533502084667,
+      "uplift_womens_lo": 0.06444045343244312,
+      "uplift_womens_hi": 0.08353021660925022
+    },
+    {
+      "segment": "both lines",
+      "customers": 6448,
+      "share": 0.10075,
+      "visit_rate_no_email": 0.18054909260120985,
+      "uplift_mens": 0.13444402981969797,
+      "uplift_mens_lo": 0.1090503605186399,
+      "uplift_mens_hi": 0.15983769912075604,
+      "uplift_womens": 0.07110340975950782,
+      "uplift_womens_lo": 0.04647935951412272,
+      "uplift_womens_hi": 0.09572746000489293
+    }
+  ],
+  "ranking": [
+    {
+      "email": "Mens E-Mail",
+      "model": "Random",
+      "qini": -0.0003139102102703156,
+      "qini_lo": -0.0014120595197160601,
+      "qini_hi": 0.0006712796807631301,
+      "uplift@30%": 0.07817823691780332,
+      "share_of_lift@50%": 0.5,
+      "qini_test_split": -0.0003030061526276308
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Propensity",
+      "qini": 0.0018980484142950248,
+      "qini_lo": 0.0009924415129959109,
+      "qini_hi": 0.002852400496722033,
+      "uplift@30%": 0.09362231035191673,
+      "share_of_lift@50%": 0.5574040230948804,
+      "qini_test_split": 0.0022814015196000077
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "T-learner",
+      "qini": -2.06775589265025e-05,
+      "qini_lo": -0.001029506839176542,
+      "qini_hi": 0.00097984230090981,
+      "uplift@30%": 0.07341519731318222,
+      "share_of_lift@50%": 0.5067051531304971,
+      "qini_test_split": 0.00015118551518166282
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "X-learner",
+      "qini": -0.00024369403793209066,
+      "qini_lo": -0.0013167873224827556,
+      "qini_hi": 0.0008168880381668314,
+      "uplift@30%": 0.07984148318441939,
+      "share_of_lift@50%": 0.4849923458328056,
+      "qini_test_split": -0.0011192423329999916
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "S-learner",
+      "qini": -0.00021626520222028586,
+      "qini_lo": -0.0012608534485749146,
+      "qini_hi": 0.0008656015595715325,
+      "uplift@30%": 0.08243990506998347,
+      "share_of_lift@50%": 0.4776604882842489,
+      "qini_test_split": 0.00019323822276640437
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Uplift tree",
+      "qini": 0.0004671249910531382,
+      "qini_lo": -0.0005387187278585758,
+      "qini_hi": 0.0014467663667808333,
+      "uplift@30%": 0.07841644697077889,
+      "share_of_lift@50%": 0.5378932703279753,
+      "qini_test_split": 0.0015701387202748072
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Random",
+      "qini": 0.00014069229174472515,
+      "qini_lo": -0.0007874444946273212,
+      "qini_hi": 0.0009754952113308827,
+      "uplift@30%": 0.047196928390817655,
+      "share_of_lift@50%": 0.5,
+      "qini_test_split": -0.0009744193385230523
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Propensity",
+      "qini": 0.0008247620652830009,
+      "qini_lo": -0.0001119357104657203,
+      "qini_hi": 0.0017045686797354958,
+      "uplift@30%": 0.052154903185509055,
+      "share_of_lift@50%": 0.5692361437336514,
+      "qini_test_split": 0.0023778439302416608
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "T-learner",
+      "qini": 0.0029286082222640467,
+      "qini_lo": 0.00206092854655454,
+      "qini_hi": 0.0038484611538018285,
+      "uplift@30%": 0.07022675198199747,
+      "share_of_lift@50%": 0.745046273804748,
+      "qini_test_split": 0.0037257628129831796
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "X-learner",
+      "qini": 0.003084034535035366,
+      "qini_lo": 0.002154677318978425,
+      "qini_hi": 0.004014445221157552,
+      "uplift@30%": 0.06786767055850682,
+      "share_of_lift@50%": 0.8078357404025382,
+      "qini_test_split": 0.0035627074225658886
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "S-learner",
+      "qini": 0.003305298088050055,
+      "qini_lo": 0.0024062308590715514,
+      "qini_hi": 0.00424496513498911,
+      "uplift@30%": 0.07011687397361195,
+      "share_of_lift@50%": 0.8115673399367541,
+      "qini_test_split": 0.0031588669129293256
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Uplift tree",
+      "qini": 0.003877094935141521,
+      "qini_lo": 0.0030574350898014096,
+      "qini_hi": 0.004721233715484928,
+      "uplift@30%": 0.07323590989525636,
+      "share_of_lift@50%": 0.8066905901262033,
+      "qini_test_split": 0.003591966304828184
+    }
+  ],
+  "paired": [
+    {
+      "email": "Mens E-Mail",
+      "comparison": "T-learner - Propensity",
+      "diff": -0.0019187259732215273,
+      "lo": -0.0030261282326054357,
+      "hi": -0.0006088976981939558,
+      "p_a_better": 0.0033333333333333335,
+      "convincing": true
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.0014309234232418866,
+      "lo": -0.0026976488426703,
+      "hi": -0.0002296106851354937,
+      "p_a_better": 0.01,
+      "convincing": true
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Uplift tree - T-learner",
+      "diff": 0.0004878025499796407,
+      "lo": -0.0007462423528745559,
+      "hi": 0.0017374261539712158,
+      "p_a_better": 0.7633333333333333,
+      "convincing": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "S-learner - T-learner",
+      "diff": -0.00019558764329378336,
+      "lo": -0.00104126109470545,
+      "hi": 0.0005826216974773067,
+      "p_a_better": 0.30666666666666664,
+      "convincing": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "X-learner - T-learner",
+      "diff": -0.00022301647900558816,
+      "lo": -0.0009847874247113316,
+      "hi": 0.0005687156642327159,
+      "p_a_better": 0.29333333333333333,
+      "convincing": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Propensity - Random",
+      "diff": 0.0022119586245653404,
+      "lo": 0.000827744244453479,
+      "hi": 0.0037784522682792823,
+      "p_a_better": 1.0,
+      "convincing": true
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "T-learner - Propensity",
+      "diff": 0.0021038461569810457,
+      "lo": 0.0007975396302904919,
+      "hi": 0.0033802298136299804,
+      "p_a_better": 1.0,
+      "convincing": true
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Uplift tree - Propensity",
+      "diff": 0.00305233286985852,
+      "lo": 0.001753820073792401,
+      "hi": 0.004250411852257845,
+      "p_a_better": 1.0,
+      "convincing": true
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Uplift tree - T-learner",
+      "diff": 0.0009484867128774742,
+      "lo": 7.625559425113418e-05,
+      "hi": 0.0017108599719276836,
+      "p_a_better": 0.98,
+      "convincing": true
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "S-learner - T-learner",
+      "diff": 0.00037668986578600835,
+      "lo": -0.0001027732483741763,
+      "hi": 0.000941175938715648,
+      "p_a_better": 0.91,
+      "convincing": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "X-learner - T-learner",
+      "diff": 0.00015542631277131944,
+      "lo": -0.0003694908848217774,
+      "hi": 0.0006287351005605386,
+      "p_a_better": 0.7266666666666667,
+      "convincing": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Propensity - Random",
+      "diff": 0.0006840697735382758,
+      "lo": -0.000506964625935487,
+      "hi": 0.0018750542557437505,
+      "p_a_better": 0.8433333333333334,
+      "convincing": false
+    }
+  ],
+  "policy": [
+    {
+      "strategy": "Random",
+      "k": 0.1,
+      "visit": 0.07658956365153125,
+      "visit_lo": 0.07062669240572148,
+      "visit_hi": 0.08367661416632402
+    },
+    {
+      "strategy": "Random",
+      "k": 0.2,
+      "visit": 0.07658956365153125,
+      "visit_lo": 0.07062669240572148,
+      "visit_hi": 0.08367661416632402
+    },
+    {
+      "strategy": "Random",
+      "k": 0.3,
+      "visit": 0.07658956365153125,
+      "visit_lo": 0.07062669240572148,
+      "visit_hi": 0.08367661416632402
+    },
+    {
+      "strategy": "Random",
+      "k": 0.5,
+      "visit": 0.07658956365153125,
+      "visit_lo": 0.07062669240572148,
+      "visit_hi": 0.08367661416632402
+    },
+    {
+      "strategy": "Random",
+      "k": 1.0,
+      "visit": 0.07658956365153125,
+      "visit_lo": 0.07062669240572148,
+      "visit_hi": 0.08367661416632402
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.1,
+      "visit": 0.1183904816779758,
+      "visit_lo": 0.0944247771781338,
+      "visit_hi": 0.14509272291045502
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.2,
+      "visit": 0.09572303313807584,
+      "visit_lo": 0.079508969292979,
+      "visit_hi": 0.11280922548176703
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.3,
+      "visit": 0.0932752038120509,
+      "visit_lo": 0.07844114755918383,
+      "visit_hi": 0.10643086253239588
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.5,
+      "visit": 0.0848732364864356,
+      "visit_lo": 0.0743075594503348,
+      "visit_hi": 0.0949057796089185
+    },
+    {
+      "strategy": "Propensity",
+      "k": 1.0,
+      "visit": 0.07658956365153125,
+      "visit_lo": 0.07062669240572148,
+      "visit_hi": 0.08367661416632402
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.1,
+      "visit": 0.08644486900762019,
+      "visit_lo": 0.06325309877505052,
+      "visit_hi": 0.1111499337137814
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.2,
+      "visit": 0.07980144222891425,
+      "visit_lo": 0.06372823631405487,
+      "visit_hi": 0.0954062801658511
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.3,
+      "visit": 0.07376028907890392,
+      "visit_lo": 0.060108282485280606,
+      "visit_hi": 0.08634413052119223
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.5,
+      "visit": 0.07789938723457894,
+      "visit_lo": 0.0687777140137071,
+      "visit_hi": 0.08683756751799179
+    },
+    {
+      "strategy": "T-learner",
+      "k": 1.0,
+      "visit": 0.07513850053683302,
+      "visit_lo": 0.06916873418567424,
+      "visit_hi": 0.08214509595321033
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.1,
+      "visit": 0.09427378608640015,
+      "visit_lo": 0.06985794134504578,
+      "visit_hi": 0.11280542527831892
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.2,
+      "visit": 0.07981711816169496,
+      "visit_lo": 0.06301523939539712,
+      "visit_hi": 0.0942218511165383
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.3,
+      "visit": 0.07575809239964335,
+      "visit_lo": 0.0634463287593613,
+      "visit_hi": 0.0879476573210967
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.5,
+      "visit": 0.07444003338271823,
+      "visit_lo": 0.06798002829875523,
+      "visit_hi": 0.08642916606956917
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 1.0,
+      "visit": 0.07462447768582273,
+      "visit_lo": 0.06851265021558448,
+      "visit_hi": 0.08222610425171713
+    }
+  ],
+  "policy_cmp": [
+    {
+      "k": 0.3,
+      "comparison": "Uplift tree - Random",
+      "diff": -0.0008314712518878997,
+      "lo": -0.013449836704030356,
+      "hi": 0.011024177080938079,
+      "p_a_better": 0.4666666666666667,
+      "convincing": false
+    },
+    {
+      "k": 0.3,
+      "comparison": "T-learner - Random",
+      "diff": -0.002829274572627327,
+      "lo": -0.01333976503677275,
+      "hi": 0.008964226042650006,
+      "p_a_better": 0.31333333333333335,
+      "convincing": false
+    },
+    {
+      "k": 0.3,
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.017517111412407554,
+      "lo": -0.03186833197295181,
+      "hi": -0.0017010861359398302,
+      "p_a_better": 0.02,
+      "convincing": true
+    },
+    {
+      "k": 0.3,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.019514914733146982,
+      "lo": -0.03382544621106511,
+      "hi": -0.004749392743135406,
+      "p_a_better": 0.0033333333333333335,
+      "convincing": true
+    },
+    {
+      "k": 0.5,
+      "comparison": "Uplift tree - Random",
+      "diff": -0.0021495302688130102,
+      "lo": -0.00846806689219675,
+      "hi": 0.007851428696997502,
+      "p_a_better": 0.4266666666666667,
+      "convincing": false
+    },
+    {
+      "k": 0.5,
+      "comparison": "T-learner - Random",
+      "diff": 0.001309823583047695,
+      "lo": -0.005621844876621253,
+      "hi": 0.008429170231876167,
+      "p_a_better": 0.6666666666666666,
+      "convincing": false
+    },
+    {
+      "k": 0.5,
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.01043320310371737,
+      "lo": -0.018534669592206843,
+      "hi": 0.0018096377634031539,
+      "p_a_better": 0.04666666666666667,
+      "convincing": false
+    },
+    {
+      "k": 0.5,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.006973849251856665,
+      "lo": -0.015983464971194718,
+      "hi": 0.0026512448716978746,
+      "p_a_better": 0.06666666666666667,
+      "convincing": false
+    }
+  ],
+  "womens_lift": [
+    {
+      "model": "Random",
+      "k": 0.3,
+      "share_of_lift": 0.3,
+      "uplift_in_group": 0.045233106587052985
+    },
+    {
+      "model": "Random",
+      "k": 0.5,
+      "share_of_lift": 0.5,
+      "uplift_in_group": 0.045233106587052985
+    },
+    {
+      "model": "Propensity",
+      "k": 0.3,
+      "share_of_lift": 0.3452551627412241,
+      "uplift_in_group": 0.052154903185509055
+    },
+    {
+      "model": "Propensity",
+      "k": 0.5,
+      "share_of_lift": 0.5692361437336514,
+      "uplift_in_group": 0.051504844107392145
+    },
+    {
+      "model": "T-learner",
+      "k": 0.3,
+      "share_of_lift": 0.4654679801315495,
+      "uplift_in_group": 0.07022675198199747
+    },
+    {
+      "model": "T-learner",
+      "k": 0.5,
+      "share_of_lift": 0.745046273804748,
+      "uplift_in_group": 0.06718235125733836
+    },
+    {
+      "model": "S-learner",
+      "k": 0.3,
+      "share_of_lift": 0.4653920178721133,
+      "uplift_in_group": 0.07011687397361195
+    },
+    {
+      "model": "S-learner",
+      "k": 0.5,
+      "share_of_lift": 0.8115673399367541,
+      "uplift_in_group": 0.07341224293974595
+    },
+    {
+      "model": "Uplift tree",
+      "k": 0.3,
+      "share_of_lift": 0.4888195678547324,
+      "uplift_in_group": 0.07323590989525636
+    },
+    {
+      "model": "Uplift tree",
+      "k": 0.5,
+      "share_of_lift": 0.8066905901262033,
+      "uplift_in_group": 0.07292381295771592
+    }
+  ],
+  "n_customers": 64000
+}

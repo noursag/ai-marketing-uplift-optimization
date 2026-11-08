@@ -1,0 +1,143 @@
+{
+  "n_rows": 64000,
+  "n_train": 38400,
+  "n_validation": 12800,
+  "n_test": 12800,
+  "duplicates": 6562,
+  "missing": 0,
+  "rates_by_arm": [
+    {
+      "segment": "Mens E-Mail",
+      "visit": 0.18275684047496127,
+      "conversion": 0.01253109306800582,
+      "spend": 1.4226165110057727
+    },
+    {
+      "segment": "No E-Mail",
+      "visit": 0.10616727682343002,
+      "conversion": 0.005726086548390125,
+      "spend": 0.6527893551112363
+    },
+    {
+      "segment": "Womens E-Mail",
+      "visit": 0.151400383410483,
+      "conversion": 0.008837144059475383,
+      "spend": 1.0772015710478329
+    }
+  ],
+  "ate": [
+    {
+      "arm": "Mens E-Mail",
+      "outcome": "visit",
+      "control_mean": 0.10616727682343002,
+      "ATE": 0.07658956365153125,
+      "ci_lo": 0.06995322354054365,
+      "ci_hi": 0.08322590376251884,
+      "relative_lift": 0.721404616781399
+    },
+    {
+      "arm": "Mens E-Mail",
+      "outcome": "conversion",
+      "control_mean": 0.005726086548390125,
+      "ATE": 0.006805006519615695,
+      "ci_lo": 0.005000095859574857,
+      "ci_hi": 0.008609917179656533,
+      "relative_lift": 1.188421876286328
+    },
+    {
+      "arm": "Mens E-Mail",
+      "outcome": "spend",
+      "control_mean": 0.6527893551112361,
+      "ATE": 0.7698271558945368,
+      "ci_lo": 0.4851438978071107,
+      "ci_hi": 1.0545104139819628,
+      "relative_lift": 1.1792887703620063
+    },
+    {
+      "arm": "Womens E-Mail",
+      "outcome": "visit",
+      "control_mean": 0.10616727682343002,
+      "ATE": 0.045233106587052985,
+      "ci_lo": 0.03889356087283511,
+      "ci_hi": 0.05157265230127086,
+      "relative_lift": 0.4260550702669102
+    },
+    {
+      "arm": "Womens E-Mail",
+      "outcome": "conversion",
+      "control_mean": 0.005726086548390125,
+      "ATE": 0.003111057511085258,
+      "ci_lo": 0.0014986104390772236,
+      "ci_hi": 0.004723504583093292,
+      "relative_lift": 0.5433130436982172
+    },
+    {
+      "arm": "Womens E-Mail",
+      "outcome": "spend",
+      "control_mean": 0.6527893551112361,
+      "ATE": 0.4244122159365967,
+      "ci_lo": 0.16895981321938208,
+      "ci_hi": 0.6798646186538113,
+      "relative_lift": 0.6501518638646863
+    }
+  ],
+  "spend_bootstrap": [
+    {
+      "arm": "Mens E-Mail",
+      "ATE_spend": 0.7698271558945368,
+      "boot_lo": 0.48057601238120556,
+      "boot_hi": 1.0545084440328036
+    },
+    {
+      "arm": "Womens E-Mail",
+      "ATE_spend": 0.4244122159365967,
+      "boot_lo": 0.1460736255174895,
+      "boot_hi": 0.6852835211755938
+    }
+  ],
+  "share_zero_spend": 0.99096875,
+  "conversion_rate": 0.00903125,
+  "visit_rate": 0.14678125,
+  "n_buyers": 578,
+  "buyer_spend_mean": 116.36354671280277,
+  "buyer_spend_median": 80.795,
+  "max_abs_smd": 0.016359543173779502,
+  "chi_square": [
+    {
+      "feature": "history_segment",
+      "chi2": 13.153291572293611,
+      "dof": 12,
+      "p_value": 0.3579979967183696
+    },
+    {
+      "feature": "zip_code",
+      "chi2": 2.8719422089251405,
+      "dof": 4,
+      "p_value": 0.5794791381657298
+    },
+    {
+      "feature": "channel",
+      "chi2": 3.6324016175409097,
+      "dof": 4,
+      "p_value": 0.45803390781197906
+    },
+    {
+      "feature": "mens",
+      "chi2": 0.7959944587977452,
+      "dof": 2,
+      "p_value": 0.6716638885721589
+    },
+    {
+      "feature": "womens",
+      "chi2": 0.6325216388374403,
+      "dof": 2,
+      "p_value": 0.7288693221012423
+    },
+    {
+      "feature": "newbie",
+      "chi2": 0.13686799114871678,
+      "dof": 2,
+      "p_value": 0.9338550966386445
+    }
+  ]
+}

@@ -1,0 +1,2163 @@
+{
+  "ranking": [
+    {
+      "email": "Mens E-Mail",
+      "model": "Random",
+      "qini": -0.0003030061526276308,
+      "qini_lo": -0.002313586833853842,
+      "qini_hi": 0.0019736483748989614,
+      "auuc": -0.000864545534506253,
+      "auuc_lo": -0.0048062154893451624,
+      "auuc_hi": 0.0034963945921894757,
+      "uplift@10%": 0.07321016166281755,
+      "uplift@10%_lo": 0.031169806440479945,
+      "uplift@10%_hi": 0.1150534170167716,
+      "uplift@20%": 0.08780938857057939,
+      "uplift@20%_lo": 0.05575258924163104,
+      "uplift@20%_hi": 0.11979121692069358,
+      "uplift@30%": 0.07893129303749043,
+      "uplift@30%_lo": 0.05338923743554821,
+      "uplift@30%_hi": 0.11213009132294033
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Propensity",
+      "qini": 0.0022814015196000077,
+      "qini_lo": -0.00011234336585241011,
+      "qini_hi": 0.004369566740177189,
+      "auuc": 0.0048301770651231896,
+      "auuc_lo": -0.00013885391035327492,
+      "auuc_hi": 0.009085147149798824,
+      "uplift@10%": 0.13882658222280864,
+      "uplift@10%_lo": 0.0805904333418692,
+      "uplift@10%_hi": 0.20043388189453515,
+      "uplift@20%": 0.10651290877796901,
+      "uplift@20%_lo": 0.06571125891964821,
+      "uplift@20%_hi": 0.14559988240194416,
+      "uplift@30%": 0.10199135598012682,
+      "uplift@30%_lo": 0.06933801364020224,
+      "uplift@30%_hi": 0.1336921073791866
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "T-learner",
+      "qini": 0.00015118551518166282,
+      "qini_lo": -0.0021511953557591785,
+      "qini_hi": 0.002286245482402342,
+      "auuc": 0.00045507309883890956,
+      "auuc_lo": -0.004208551359353301,
+      "auuc_hi": 0.004753762314176318,
+      "uplift@10%": 0.08086341274666961,
+      "uplift@10%_lo": 0.02742624853001614,
+      "uplift@10%_hi": 0.13116379494512467,
+      "uplift@20%": 0.08289058151134529,
+      "uplift@20%_lo": 0.046631621619917504,
+      "uplift@20%_hi": 0.11697403602655713,
+      "uplift@30%": 0.07506824330113962,
+      "uplift@30%_lo": 0.04208185333078335,
+      "uplift@30%_hi": 0.10551613501285795
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "X-learner",
+      "qini": -0.0011192423329999916,
+      "qini_lo": -0.0035726496497832136,
+      "qini_hi": 0.0009631752424292136,
+      "auuc": -0.002093935056273283,
+      "auuc_lo": -0.0070956718980370185,
+      "auuc_hi": 0.002194753094519739,
+      "uplift@10%": 0.06811527199876716,
+      "uplift@10%_lo": 0.019509631345476328,
+      "uplift@10%_hi": 0.12504681555757247,
+      "uplift@20%": 0.06521428001310095,
+      "uplift@20%_lo": 0.027749488718759596,
+      "uplift@20%_hi": 0.10714352682909506,
+      "uplift@30%": 0.06290961240082424,
+      "uplift@30%_lo": 0.0356950548398031,
+      "uplift@30%_hi": 0.09197724013790055
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "S-learner",
+      "qini": 0.00019323822276640437,
+      "qini_lo": -0.0020912323233758974,
+      "qini_hi": 0.002392496140685763,
+      "auuc": 0.0004364820549097384,
+      "auuc_lo": -0.004099698500913978,
+      "auuc_hi": 0.004609520230329654,
+      "uplift@10%": 0.11382610130341528,
+      "uplift@10%_lo": 0.05837978533986529,
+      "uplift@10%_hi": 0.1715042580821263,
+      "uplift@20%": 0.10128325792851403,
+      "uplift@20%_lo": 0.06310070582879067,
+      "uplift@20%_hi": 0.1391682408563529,
+      "uplift@30%": 0.07592949482713263,
+      "uplift@30%_lo": 0.04376418638229663,
+      "uplift@30%_hi": 0.10551087787556815
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Uplift tree",
+      "qini": 0.0015701387202748072,
+      "qini_lo": -0.0011899319658054026,
+      "qini_hi": 0.0035484081060143382,
+      "auuc": 0.003151618043226445,
+      "auuc_lo": -0.002339370631893425,
+      "auuc_hi": 0.006936865797574486,
+      "uplift@10%": 0.09419261898478051,
+      "uplift@10%_lo": 0.05221875873272956,
+      "uplift@10%_hi": 0.16469434018885176,
+      "uplift@20%": 0.10561445809662219,
+      "uplift@20%_lo": 0.061380152055739386,
+      "uplift@20%_hi": 0.13303288614689415,
+      "uplift@30%": 0.09842942187796358,
+      "uplift@30%_lo": 0.06225033992095436,
+      "uplift@30%_hi": 0.1194335617099464
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Random",
+      "qini": -0.0009744193385230523,
+      "qini_lo": -0.002763758156801736,
+      "qini_hi": 0.0010342307894448549,
+      "auuc": -0.00199471675581675,
+      "auuc_lo": -0.005606798438849242,
+      "auuc_hi": 0.001976344759689957,
+      "uplift@10%": 0.028414308889438813,
+      "uplift@10%_lo": -0.011206177369313607,
+      "uplift@10%_hi": 0.06868789463028664,
+      "uplift@20%": 0.045253822252402404,
+      "uplift@20%_lo": 0.012994074458452838,
+      "uplift@20%_hi": 0.07383261641462231,
+      "uplift@30%": 0.04427172206675313,
+      "uplift@30%_lo": 0.018436476967851525,
+      "uplift@30%_hi": 0.07041111671569157
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Propensity",
+      "qini": 0.0023778439302416608,
+      "qini_lo": 0.0005330797786143308,
+      "qini_hi": 0.00429701001196296,
+      "auuc": 0.005241812185280439,
+      "auuc_lo": 0.0013835888911329173,
+      "auuc_hi": 0.00923480365954992,
+      "uplift@10%": 0.09407496710761729,
+      "uplift@10%_lo": 0.04041175067250573,
+      "uplift@10%_hi": 0.15008061904963604,
+      "uplift@20%": 0.07894231138783198,
+      "uplift@20%_lo": 0.04242184362630405,
+      "uplift@20%_hi": 0.11753620772634733,
+      "uplift@30%": 0.06549897470950103,
+      "uplift@30%_lo": 0.040797587676662084,
+      "uplift@30%_hi": 0.10156441033658581
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "T-learner",
+      "qini": 0.0037257628129831796,
+      "qini_lo": 0.0015550836646326953,
+      "qini_hi": 0.005983423946541468,
+      "auuc": 0.008090605765408092,
+      "auuc_lo": 0.0037412456470889825,
+      "auuc_hi": 0.012607880400302847,
+      "uplift@10%": 0.0885358925567414,
+      "uplift@10%_lo": 0.04246997091533724,
+      "uplift@10%_hi": 0.13808559678684418,
+      "uplift@20%": 0.09457432488118457,
+      "uplift@20%_lo": 0.06078347951322235,
+      "uplift@20%_hi": 0.13008386286370247,
+      "uplift@30%": 0.0831737633350567,
+      "uplift@30%_lo": 0.056347765144581334,
+      "uplift@30%_hi": 0.11186902652475558
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "X-learner",
+      "qini": 0.0035627074225658886,
+      "qini_lo": 0.0014752213951728537,
+      "qini_hi": 0.00557927601905807,
+      "auuc": 0.0076902786612806605,
+      "auuc_lo": 0.0035415841319232787,
+      "auuc_hi": 0.011757272554370975,
+      "uplift@10%": 0.0968242184277819,
+      "uplift@10%_lo": 0.05164887887699685,
+      "uplift@10%_hi": 0.1455880490720975,
+      "uplift@20%": 0.07694651041523727,
+      "uplift@20%_lo": 0.04534474509740601,
+      "uplift@20%_hi": 0.11224772955357325,
+      "uplift@30%": 0.07121050910492999,
+      "uplift@30%_lo": 0.04302022099873033,
+      "uplift@30%_hi": 0.09810666165433836
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "S-learner",
+      "qini": 0.0031588669129293256,
+      "qini_lo": 0.0012953199489953544,
+      "qini_hi": 0.005452926431203721,
+      "auuc": 0.006973030252379827,
+      "auuc_lo": 0.0030488558771269826,
+      "auuc_hi": 0.011628387473127886,
+      "uplift@10%": 0.08566810344827587,
+      "uplift@10%_lo": 0.0365582198417057,
+      "uplift@10%_hi": 0.13543437284105375,
+      "uplift@20%": 0.07319901036751301,
+      "uplift@20%_lo": 0.04110900156928136,
+      "uplift@20%_hi": 0.10781980772595855,
+      "uplift@30%": 0.0669642857142857,
+      "uplift@30%_lo": 0.038088848930721855,
+      "uplift@30%_hi": 0.10140832918550866
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Uplift tree",
+      "qini": 0.003591966304828184,
+      "qini_lo": 0.0015231680666838747,
+      "qini_hi": 0.0056499350305572365,
+      "auuc": 0.007700460746567286,
+      "auuc_lo": 0.0034198211661953513,
+      "auuc_hi": 0.011940090700906191,
+      "uplift@10%": 0.09878579006095783,
+      "uplift@10%_lo": 0.02771847362916282,
+      "uplift@10%_hi": 0.12563658600995617,
+      "uplift@20%": 0.09579184154939237,
+      "uplift@20%_lo": 0.04109409742660002,
+      "uplift@20%_hi": 0.10972915463359706,
+      "uplift@30%": 0.08681515616999487,
+      "uplift@30%_lo": 0.04389854172770654,
+      "uplift@30%_hi": 0.10406550902996828
+    }
+  ],
+  "paired": [
+    {
+      "email": "Mens E-Mail",
+      "comparison": "T-learner - Random",
+      "diff": 0.0004541916678092936,
+      "lo": -0.002762323640590677,
+      "hi": 0.0036627513392554476,
+      "p_a_better": 0.59,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "T-learner - Propensity",
+      "diff": -0.002130216004418345,
+      "lo": -0.004994980601265658,
+      "hi": 0.00047589376665792136,
+      "p_a_better": 0.04666666666666667,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "X-learner - T-learner",
+      "diff": -0.0012704278481816544,
+      "lo": -0.0028700406315704833,
+      "hi": 0.0004218127880856647,
+      "p_a_better": 0.07,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "X-learner - Propensity",
+      "diff": -0.0034006438525999994,
+      "lo": -0.00594181652050819,
+      "hi": -0.001337607128117253,
+      "p_a_better": 0.006666666666666667,
+      "convincing (CI excludes 0)": true
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "S-learner - T-learner",
+      "diff": 4.2052707584741555e-05,
+      "lo": -0.0018840396572994958,
+      "hi": 0.002136251638933814,
+      "p_a_better": 0.5566666666666666,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Uplift tree - T-learner",
+      "diff": 0.0014189532050931444,
+      "lo": -0.0022125954584922536,
+      "hi": 0.004396337776247203,
+      "p_a_better": 0.74,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.0007112627993252005,
+      "lo": -0.004116215645386487,
+      "hi": 0.001899164646523477,
+      "p_a_better": 0.23,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Uplift tree - Random",
+      "diff": 0.001873144872902438,
+      "lo": -0.0014953292849252846,
+      "hi": 0.004414999605975063,
+      "p_a_better": 0.83,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Mens E-Mail",
+      "comparison": "Propensity - Random",
+      "diff": 0.0025844076722276385,
+      "lo": -0.00039049407515376686,
+      "hi": 0.0053281079666827715,
+      "p_a_better": 0.95,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "T-learner - Random",
+      "diff": 0.004700182151506232,
+      "lo": 0.001875342334809658,
+      "hi": 0.0073545194114515286,
+      "p_a_better": 1.0,
+      "convincing (CI excludes 0)": true
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "T-learner - Propensity",
+      "diff": 0.0013479188827415188,
+      "lo": -0.0012881947647398547,
+      "hi": 0.004250596110168943,
+      "p_a_better": 0.8133333333333334,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "X-learner - T-learner",
+      "diff": -0.000163055390417291,
+      "lo": -0.0015081246251809866,
+      "hi": 0.0013684269805440384,
+      "p_a_better": 0.45666666666666667,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "X-learner - Propensity",
+      "diff": 0.0011848634923242278,
+      "lo": -0.0013944865472403478,
+      "hi": 0.0034525752721859993,
+      "p_a_better": 0.8033333333333333,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "S-learner - T-learner",
+      "diff": -0.0005668959000538539,
+      "lo": -0.002058437062325288,
+      "hi": 0.0013082441390533277,
+      "p_a_better": 0.27666666666666667,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Uplift tree - T-learner",
+      "diff": -0.00013379650815499577,
+      "lo": -0.0019617382222487344,
+      "hi": 0.0015719372760361402,
+      "p_a_better": 0.4633333333333333,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Uplift tree - Propensity",
+      "diff": 0.001214122374586523,
+      "lo": -0.001267481456001772,
+      "hi": 0.0035222554692441502,
+      "p_a_better": 0.82,
+      "convincing (CI excludes 0)": false
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Uplift tree - Random",
+      "diff": 0.004566385643351236,
+      "lo": 0.0018844888311682726,
+      "hi": 0.007326049372229822,
+      "p_a_better": 1.0,
+      "convincing (CI excludes 0)": true
+    },
+    {
+      "email": "Womens E-Mail",
+      "comparison": "Propensity - Random",
+      "diff": 0.003352263268764713,
+      "lo": 0.0008284202283316841,
+      "hi": 0.006112651227703424,
+      "p_a_better": 0.9933333333333333,
+      "convincing (CI excludes 0)": true
+    }
+  ],
+  "lift_captured": [
+    {
+      "email": "Mens E-Mail",
+      "model": "Everyone",
+      "k": 1.0,
+      "share_of_lift": 1.0,
+      "uplift_in_group": 0.07674254869748887,
+      "cost_per_inc_visit": 1.9545871559633023
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Random",
+      "k": 0.3,
+      "share_of_lift": 0.3,
+      "uplift_in_group": 0.07674254869748887,
+      "cost_per_inc_visit": 1.9545871559633023
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Random",
+      "k": 0.5,
+      "share_of_lift": 0.5,
+      "uplift_in_group": 0.07674254869748887,
+      "cost_per_inc_visit": 1.9545871559633023
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Propensity",
+      "k": 0.3,
+      "share_of_lift": 0.3911228146760827,
+      "uplift_in_group": 0.10199135598012682,
+      "cost_per_inc_visit": 1.470712871287129
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Propensity",
+      "k": 0.5,
+      "share_of_lift": 0.5757249521993952,
+      "uplift_in_group": 0.08943565765757824,
+      "cost_per_inc_visit": 1.6771833956239701
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "T-learner",
+      "k": 0.3,
+      "share_of_lift": 0.28741724958112175,
+      "uplift_in_group": 0.07506824330113962,
+      "cost_per_inc_visit": 1.998181833005846
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "T-learner",
+      "k": 0.5,
+      "share_of_lift": 0.45909588612544966,
+      "uplift_in_group": 0.07048091772911834,
+      "cost_per_inc_visit": 2.128235625087914
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Uplift tree",
+      "k": 0.3,
+      "share_of_lift": 0.3813763838513145,
+      "uplift_in_group": 0.09842942187796358,
+      "cost_per_inc_visit": 1.523934583157214
+    },
+    {
+      "email": "Mens E-Mail",
+      "model": "Uplift tree",
+      "k": 0.5,
+      "share_of_lift": 0.5351855713094245,
+      "uplift_in_group": 0.081435868691569,
+      "cost_per_inc_visit": 1.8419401967468592
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Everyone",
+      "k": 1.0,
+      "share_of_lift": 1.0,
+      "uplift_in_group": 0.04539426541583816,
+      "cost_per_inc_visit": 3.3043821422356285
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Random",
+      "k": 0.3,
+      "share_of_lift": 0.3,
+      "uplift_in_group": 0.04539426541583816,
+      "cost_per_inc_visit": 3.3043821422356285
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Random",
+      "k": 0.5,
+      "share_of_lift": 0.5,
+      "uplift_in_group": 0.04539426541583816,
+      "cost_per_inc_visit": 3.3043821422356285
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Propensity",
+      "k": 0.3,
+      "share_of_lift": 0.41553100731409714,
+      "uplift_in_group": 0.06549897470950103,
+      "cost_per_inc_visit": 2.290112183668145
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Propensity",
+      "k": 0.5,
+      "share_of_lift": 0.6461445528916983,
+      "uplift_in_group": 0.06000914340596042,
+      "cost_per_inc_visit": 2.499619082799659
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "T-learner",
+      "k": 0.3,
+      "share_of_lift": 0.5263764640330568,
+      "uplift_in_group": 0.0831737633350567,
+      "cost_per_inc_visit": 1.8034533245266404
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "T-learner",
+      "k": 0.5,
+      "share_of_lift": 0.7876637680835722,
+      "uplift_in_group": 0.07361004756117268,
+      "cost_per_inc_visit": 2.037765291149207
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Uplift tree",
+      "k": 0.3,
+      "share_of_lift": 0.5632799893589616,
+      "uplift_in_group": 0.08681515616999487,
+      "cost_per_inc_visit": 1.727808905927455
+    },
+    {
+      "email": "Womens E-Mail",
+      "model": "Uplift tree",
+      "k": 0.5,
+      "share_of_lift": 0.8201491574927419,
+      "uplift_in_group": 0.07646194584549165,
+      "cost_per_inc_visit": 1.9617601715644055
+    }
+  ],
+  "deciles": {
+    "mens": [
+      {
+        "decile": 1,
+        "n_treated": 395,
+        "n_control": 458,
+        "rate_treated": 0.22278481012658227,
+        "rate_control": 0.14192139737991266,
+        "uplift": 0.08086341274666961,
+        "ci_lo": 0.02878684285222495,
+        "ci_hi": 0.13293998264111428
+      },
+      {
+        "decile": 2,
+        "n_treated": 426,
+        "n_control": 426,
+        "rate_treated": 0.19953051643192488,
+        "rate_control": 0.11267605633802817,
+        "uplift": 0.0868544600938967,
+        "ci_lo": 0.038404199236040354,
+        "ci_hi": 0.13530472095175305
+      },
+      {
+        "decile": 3,
+        "n_treated": 431,
+        "n_control": 421,
+        "rate_treated": 0.19953596287703015,
+        "rate_control": 0.14014251781472684,
+        "uplift": 0.05939344506230332,
+        "ci_lo": 0.009102886614920855,
+        "ci_hi": 0.10968400350968578
+      },
+      {
+        "decile": 4,
+        "n_treated": 442,
+        "n_control": 410,
+        "rate_treated": 0.18778280542986425,
+        "rate_control": 0.11707317073170732,
+        "uplift": 0.07070963469815693,
+        "ci_lo": 0.022756382776973658,
+        "ci_hi": 0.1186628866193402
+      },
+      {
+        "decile": 5,
+        "n_treated": 436,
+        "n_control": 416,
+        "rate_treated": 0.16743119266055045,
+        "rate_control": 0.10817307692307693,
+        "uplift": 0.05925811573747353,
+        "ci_lo": 0.013170309532793363,
+        "ci_hi": 0.1053459219421537
+      },
+      {
+        "decile": 6,
+        "n_treated": 442,
+        "n_control": 411,
+        "rate_treated": 0.21266968325791855,
+        "rate_control": 0.07542579075425791,
+        "uplift": 0.13724389250366065,
+        "ci_lo": 0.0912872180535616,
+        "ci_hi": 0.1832005669537597
+      },
+      {
+        "decile": 7,
+        "n_treated": 417,
+        "n_control": 435,
+        "rate_treated": 0.1342925659472422,
+        "rate_control": 0.06896551724137931,
+        "uplift": 0.0653270487058629,
+        "ci_lo": 0.024806014282425216,
+        "ci_hi": 0.10584808312930058
+      },
+      {
+        "decile": 8,
+        "n_treated": 417,
+        "n_control": 435,
+        "rate_treated": 0.1486810551558753,
+        "rate_control": 0.08045977011494253,
+        "uplift": 0.06822128504093276,
+        "ci_lo": 0.025515701969036478,
+        "ci_hi": 0.11092686811282905
+      },
+      {
+        "decile": 9,
+        "n_treated": 433,
+        "n_control": 419,
+        "rate_treated": 0.16859122401847576,
+        "rate_control": 0.0954653937947494,
+        "uplift": 0.07312583022372636,
+        "ci_lo": 0.027958710626326412,
+        "ci_hi": 0.11829294982112631
+      },
+      {
+        "decile": 10,
+        "n_treated": 422,
+        "n_control": 430,
+        "rate_treated": 0.1872037914691943,
+        "rate_control": 0.1186046511627907,
+        "uplift": 0.0685991403064036,
+        "ci_lo": 0.02038556837409864,
+        "ci_hi": 0.11681271223870857
+      }
+    ],
+    "womens": [
+      {
+        "decile": 1,
+        "n_treated": 395,
+        "n_control": 459,
+        "rate_treated": 0.19746835443037974,
+        "rate_control": 0.10893246187363835,
+        "uplift": 0.0885358925567414,
+        "ci_lo": 0.03996288886892894,
+        "ci_hi": 0.13710889624455386
+      },
+      {
+        "decile": 2,
+        "n_treated": 423,
+        "n_control": 431,
+        "rate_treated": 0.19621749408983452,
+        "rate_control": 0.0951276102088167,
+        "uplift": 0.10108988388101782,
+        "ci_lo": 0.05413500652890424,
+        "ci_hi": 0.1480447612331314
+      },
+      {
+        "decile": 3,
+        "n_treated": 411,
+        "n_control": 443,
+        "rate_treated": 0.15085158150851583,
+        "rate_control": 0.09029345372460497,
+        "uplift": 0.060558127783910856,
+        "ci_lo": 0.01680725294375482,
+        "ci_hi": 0.1043090026240669
+      },
+      {
+        "decile": 4,
+        "n_treated": 406,
+        "n_control": 448,
+        "rate_treated": 0.15763546798029557,
+        "rate_control": 0.12276785714285714,
+        "uplift": 0.03486761083743843,
+        "ci_lo": -0.011877399567555326,
+        "ci_hi": 0.08161262124243218
+      },
+      {
+        "decile": 5,
+        "n_treated": 443,
+        "n_control": 411,
+        "rate_treated": 0.18961625282167044,
+        "rate_control": 0.1070559610705596,
+        "uplift": 0.08256029175111083,
+        "ci_lo": 0.035324295105029914,
+        "ci_hi": 0.12979628839719176
+      },
+      {
+        "decile": 6,
+        "n_treated": 445,
+        "n_control": 409,
+        "rate_treated": 0.12359550561797752,
+        "rate_control": 0.1271393643031785,
+        "uplift": -0.0035438586852009624,
+        "ci_lo": -0.048064800633902116,
+        "ci_hi": 0.04097708326350019
+      },
+      {
+        "decile": 7,
+        "n_treated": 430,
+        "n_control": 424,
+        "rate_treated": 0.1325581395348837,
+        "rate_control": 0.08726415094339622,
+        "uplift": 0.04529398859148749,
+        "ci_lo": 0.003424721076089314,
+        "ci_hi": 0.08716325610688566
+      },
+      {
+        "decile": 8,
+        "n_treated": 451,
+        "n_control": 403,
+        "rate_treated": 0.12638580931263857,
+        "rate_control": 0.08933002481389578,
+        "uplift": 0.03705578449874279,
+        "ci_lo": -0.00441684200554486,
+        "ci_hi": 0.07852841100303044
+      },
+      {
+        "decile": 9,
+        "n_treated": 447,
+        "n_control": 407,
+        "rate_treated": 0.11185682326621924,
+        "rate_control": 0.09336609336609336,
+        "uplift": 0.018490729900125874,
+        "ci_lo": -0.0222113069690262,
+        "ci_hi": 0.05919276676927795
+      },
+      {
+        "decile": 10,
+        "n_treated": 427,
+        "n_control": 426,
+        "rate_treated": 0.1358313817330211,
+        "rate_control": 0.13849765258215962,
+        "uplift": -0.0026662708491385356,
+        "ci_lo": -0.048894291596145195,
+        "ci_hi": 0.043561749897868124
+      }
+    ]
+  },
+  "sleeping_dog_evidence": {
+    "mens": false,
+    "womens": false
+  },
+  "tree_leaves_womens_test": [
+    {
+      "leaf_uplift": 0.0741,
+      "diff": 0.07354420161839921,
+      "se": 0.010426538111393827,
+      "lo": 0.05310818692006731,
+      "hi": 0.09398021631673112,
+      "n": 4667.0
+    },
+    {
+      "leaf_uplift": 0.0122,
+      "diff": 0.014732994533241422,
+      "se": 0.009830491111950931,
+      "lo": -0.004534768046182403,
+      "hi": 0.034000757112665245,
+      "n": 3872.0
+    }
+  ],
+  "policy_ci": [
+    {
+      "strategy": "Random",
+      "k": 0.1,
+      "visit": 0.07674254869748884,
+      "visit_lo": 0.06277282328091999,
+      "visit_hi": 0.0894156301337714,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.010684111710865989,
+      "spend": 0.7452593287960573,
+      "spend_lo": 0.08440401314245494,
+      "spend_hi": 1.3936922670734573
+    },
+    {
+      "strategy": "Random",
+      "k": 0.2,
+      "visit": 0.07674254869748884,
+      "visit_lo": 0.06277282328091999,
+      "visit_hi": 0.0894156301337714,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.010684111710865989,
+      "spend": 0.7452593287960573,
+      "spend_lo": 0.08440401314245494,
+      "spend_hi": 1.3936922670734573
+    },
+    {
+      "strategy": "Random",
+      "k": 0.3,
+      "visit": 0.07674254869748884,
+      "visit_lo": 0.06277282328091999,
+      "visit_hi": 0.0894156301337714,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.010684111710865989,
+      "spend": 0.7452593287960573,
+      "spend_lo": 0.08440401314245494,
+      "spend_hi": 1.3936922670734573
+    },
+    {
+      "strategy": "Random",
+      "k": 0.5,
+      "visit": 0.07674254869748884,
+      "visit_lo": 0.06277282328091999,
+      "visit_hi": 0.0894156301337714,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.010684111710865989,
+      "spend": 0.7452593287960573,
+      "spend_lo": 0.08440401314245494,
+      "spend_hi": 1.3936922670734573
+    },
+    {
+      "strategy": "Random",
+      "k": 1.0,
+      "visit": 0.07674254869748884,
+      "visit_lo": 0.06277282328091999,
+      "visit_hi": 0.0894156301337714,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.010684111710865989,
+      "spend": 0.7452593287960573,
+      "spend_lo": 0.08440401314245494,
+      "spend_hi": 1.3936922670734573
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.1,
+      "visit": 0.14315888289134004,
+      "visit_lo": 0.07744660877728234,
+      "visit_hi": 0.20071579441445664,
+      "conversion": 0.021121802393804272,
+      "conversion_lo": -0.0012321051396385794,
+      "conversion_hi": 0.03989673785496363,
+      "spend": 2.769326449190331,
+      "spend_lo": -0.4358038019244311,
+      "spend_hi": 6.351475592583892
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.2,
+      "visit": 0.09387467730579674,
+      "visit_lo": 0.05632480638347803,
+      "visit_hi": 0.13611828209340526,
+      "conversion": 0.008214034264257217,
+      "conversion_lo": -0.0023468669326449174,
+      "conversion_hi": 0.02112180239380427,
+      "spend": 0.9598568411171087,
+      "spend_lo": -0.5435235273409998,
+      "spend_hi": 2.8140131424548227
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.3,
+      "visit": 0.09543925526089339,
+      "visit_lo": 0.06489087068763201,
+      "visit_hi": 0.12714151607603846,
+      "conversion": 0.012516623640772903,
+      "conversion_lo": 0.0015645779550966105,
+      "conversion_hi": 0.023879371039662034,
+      "spend": 1.50704842368771,
+      "spend_lo": 0.1382017132128606,
+      "spend_hi": 2.9773378706094027
+    },
+    {
+      "strategy": "Propensity",
+      "k": 0.5,
+      "visit": 0.08683407650786198,
+      "visit_lo": 0.06287256512555738,
+      "visit_hi": 0.10961042008918094,
+      "conversion": 0.010326214503637644,
+      "conversion_lo": 0.003754987092231871,
+      "conversion_hi": 0.0173668153015724,
+      "spend": 1.138934522412579,
+      "spend_lo": -0.104660173668153,
+      "spend_hi": 2.3143496831729635
+    },
+    {
+      "strategy": "Propensity",
+      "k": 1.0,
+      "visit": 0.07674254869748884,
+      "visit_lo": 0.06277282328091997,
+      "visit_hi": 0.08941563013377142,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.010684111710865989,
+      "spend": 0.7452593287960572,
+      "spend_lo": 0.08440401314245478,
+      "spend_hi": 1.393692267073457
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.1,
+      "visit": 0.03738200246009585,
+      "visit_lo": -0.017831539390005507,
+      "visit_hi": 0.09721070640914105,
+      "conversion": 0.0023468669326449183,
+      "conversion_lo": -0.0070406007979347575,
+      "conversion_hi": 0.016428068528514434,
+      "spend": 0.12551044355785035,
+      "spend_lo": -1.4427170851912698,
+      "spend_hi": 2.566863999061249
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.2,
+      "visit": 0.07138359490641008,
+      "visit_lo": 0.032051349042529875,
+      "visit_hi": 0.10891154966838298,
+      "conversion": 0.0035109743732883317,
+      "conversion_lo": -0.004693733865289839,
+      "conversion_hi": 0.012900890185608757,
+      "spend": 0.4724849217365411,
+      "spend_lo": -0.5383607036415059,
+      "spend_hi": 1.7237677092998798
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.3,
+      "visit": 0.06940922041118122,
+      "visit_lo": 0.04049126284884048,
+      "visit_hi": 0.10190262992826969,
+      "conversion": 0.0007729629518692591,
+      "conversion_lo": -0.005894107659713584,
+      "conversion_hi": 0.008216105190547694,
+      "spend": 0.1996332494685903,
+      "spend_lo": -0.5756762787178961,
+      "spend_hi": 1.0080829447214996
+    },
+    {
+      "strategy": "T-learner",
+      "k": 0.5,
+      "visit": 0.07064969154444363,
+      "visit_lo": 0.04744057922738598,
+      "visit_hi": 0.09222781088882623,
+      "conversion": 0.004215034453081808,
+      "conversion_lo": -0.0014174461852659971,
+      "conversion_hi": 0.010312272095247469,
+      "spend": 0.3289919751194802,
+      "spend_lo": -0.5096028904206248,
+      "spend_hi": 1.2367379568641685
+    },
+    {
+      "strategy": "T-learner",
+      "k": 1.0,
+      "visit": 0.06482169352068332,
+      "visit_lo": 0.0506232665249769,
+      "visit_hi": 0.08055501153739095,
+      "conversion": 0.0037493914768244423,
+      "conversion_lo": -2.4014516123548336e-06,
+      "conversion_hi": 0.007738179289881296,
+      "spend": 0.2793669768063938,
+      "spend_lo": -0.24986036254211666,
+      "spend_hi": 0.9048053442022127
+    },
+    {
+      "strategy": "X-learner",
+      "k": 0.1,
+      "visit": 0.06799385886694931,
+      "visit_lo": 0.011682342070063889,
+      "visit_hi": 0.12195314626642438,
+      "conversion": 0.0070406007979347575,
+      "conversion_lo": -0.007040600797934761,
+      "conversion_hi": 0.023468669326449188,
+      "spend": 0.21978408824219675,
+      "spend_lo": -1.6242167331612298,
+      "spend_hi": 1.8011558319643266
+    },
+    {
+      "strategy": "X-learner",
+      "k": 0.2,
+      "visit": 0.058569087033653405,
+      "visit_lo": 0.019835757167407313,
+      "visit_hi": 0.09965149876364328,
+      "conversion": 0.005867167331612296,
+      "conversion_lo": -0.004693733865289837,
+      "conversion_hi": 0.016428068528514438,
+      "spend": 0.682339826331847,
+      "spend_lo": -0.6594927833841822,
+      "spend_hi": 2.217033853555503
+    },
+    {
+      "strategy": "X-learner",
+      "k": 0.3,
+      "visit": 0.05779612408178422,
+      "visit_lo": 0.024939831590994017,
+      "visit_hi": 0.09218917188439518,
+      "conversion": 0.006258311820386452,
+      "conversion_lo": -0.001564577955096613,
+      "conversion_hi": 0.014491903309082357,
+      "spend": 1.2200422436047877,
+      "spend_lo": -0.012880583587577397,
+      "spend_hi": 2.5472402800594534
+    },
+    {
+      "strategy": "X-learner",
+      "k": 0.5,
+      "visit": 0.056659885000228755,
+      "visit_lo": 0.036235817446448604,
+      "visit_hi": 0.0789798320854562,
+      "conversion": 0.002812509908902283,
+      "conversion_lo": -0.002350597342916538,
+      "conversion_hi": 0.008916229138914884,
+      "spend": 0.48593304747418853,
+      "spend_lo": -0.5771380565868128,
+      "spend_hi": 1.485738390771228
+    },
+    {
+      "strategy": "X-learner",
+      "k": 1.0,
+      "visit": 0.0745081975217129,
+      "visit_lo": 0.059685790834360014,
+      "visit_hi": 0.08846477324207432,
+      "conversion": 0.004924690148282711,
+      "conversion_lo": 0.0012821584680477748,
+      "conversion_hi": 0.008914457194035864,
+      "spend": 0.6093280993482865,
+      "spend_lo": -0.061991838150335425,
+      "spend_hi": 1.216940074099662
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.1,
+      "visit": 0.09856841117108661,
+      "visit_lo": 0.04101149964796995,
+      "visit_hi": 0.15489321755456467,
+      "conversion": 0.007040600797934757,
+      "conversion_lo": -0.009387467730579677,
+      "conversion_hi": 0.02112180239380427,
+      "spend": 0.898286787139169,
+      "spend_lo": -0.6576672142689509,
+      "spend_hi": 2.740663576625205
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.2,
+      "visit": 0.10208871157005397,
+      "visit_lo": 0.05447664867402017,
+      "visit_hi": 0.1279042478291481,
+      "conversion": 0.005867167331612297,
+      "conversion_lo": -0.004136352968786671,
+      "conversion_hi": 0.014081201595869517,
+      "spend": 1.0524642102792772,
+      "spend_lo": -0.32364937808026306,
+      "spend_hi": 2.084812250645387
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.3,
+      "visit": 0.08214034264257218,
+      "visit_lo": 0.06530157240084489,
+      "visit_hi": 0.11853633732300711,
+      "conversion": 0.0046937338652898375,
+      "conversion_lo": -0.0011929906907611678,
+      "conversion_hi": 0.01486349057341782,
+      "spend": 1.1092544786043965,
+      "spend_lo": -0.16377454431667046,
+      "spend_hi": 1.9950258155362592
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 0.5,
+      "visit": 0.07932410232339829,
+      "visit_lo": 0.06054916686223889,
+      "visit_hi": 0.10165454118751463,
+      "conversion": 0.005632480638347806,
+      "conversion_lo": 0.0,
+      "conversion_hi": 0.011980755691152301,
+      "spend": 0.9796151138230461,
+      "spend_lo": -0.11661722600328565,
+      "spend_hi": 1.6113150668857057
+    },
+    {
+      "strategy": "Uplift tree",
+      "k": 1.0,
+      "visit": 0.07674254869748885,
+      "visit_lo": 0.06277282328091996,
+      "visit_hi": 0.08941563013377142,
+      "conversion": 0.006571227411405773,
+      "conversion_lo": 0.0025815536259094106,
+      "conversion_hi": 0.01068411171086599,
+      "spend": 0.745259328796057,
+      "spend_lo": 0.08440401314245488,
+      "spend_hi": 1.3936922670734568
+    }
+  ],
+  "policy_cmp": [
+    {
+      "outcome": "visit",
+      "k": 0.2,
+      "comparison": "T-learner - Random",
+      "diff": -0.005358953791078758,
+      "lo": -0.039143459674649,
+      "hi": 0.02651293234495016,
+      "p_a_better": 0.39,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.2,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.022491082399386658,
+      "lo": -0.06299454679849059,
+      "hi": 0.02034246208613977,
+      "p_a_better": 0.16666666666666666,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.2,
+      "comparison": "X-learner - T-learner",
+      "diff": -0.012814507872756675,
+      "lo": -0.04628226763740724,
+      "hi": 0.015938417893505297,
+      "p_a_better": 0.23333333333333334,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.2,
+      "comparison": "Uplift tree - Random",
+      "diff": 0.025346162872565137,
+      "lo": -0.0191328326683877,
+      "hi": 0.04990025815536258,
+      "p_a_better": 0.8,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.2,
+      "comparison": "Uplift tree - Propensity",
+      "diff": 0.008214034264257236,
+      "lo": -0.051073691621685034,
+      "hi": 0.041070171321286084,
+      "p_a_better": 0.48,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.3,
+      "comparison": "T-learner - Random",
+      "diff": -0.007333328286307617,
+      "lo": -0.03608493240844028,
+      "hi": 0.021034487935542332,
+      "p_a_better": 0.31,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.3,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.02603003484971217,
+      "lo": -0.06245745000783933,
+      "hi": 0.011120426164995244,
+      "p_a_better": 0.09333333333333334,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.3,
+      "comparison": "X-learner - T-learner",
+      "diff": -0.011613096329396999,
+      "lo": -0.038590070225704785,
+      "hi": 0.00875744898014783,
+      "p_a_better": 0.16,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.3,
+      "comparison": "Uplift tree - Random",
+      "diff": 0.005397793945083343,
+      "lo": -0.00787178283657982,
+      "hi": 0.03892474380035984,
+      "p_a_better": 0.8633333333333333,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.3,
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.01329891261832121,
+      "lo": -0.03561370570288663,
+      "hi": 0.026636939685519813,
+      "p_a_better": 0.38,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.5,
+      "comparison": "T-learner - Random",
+      "diff": -0.006092857153045209,
+      "lo": -0.025272750592778632,
+      "hi": 0.012199382419607756,
+      "p_a_better": 0.26666666666666666,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.5,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.016184384963418355,
+      "lo": -0.03824432793861147,
+      "hi": 0.008222065618136102,
+      "p_a_better": 0.09666666666666666,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.5,
+      "comparison": "X-learner - T-learner",
+      "diff": -0.013989806544214875,
+      "lo": -0.03181267273033885,
+      "hi": 0.005015462550575838,
+      "p_a_better": 0.09,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.5,
+      "comparison": "Uplift tree - Random",
+      "diff": 0.0025815536259094496,
+      "lo": -0.010214738324337001,
+      "hi": 0.018921614644449636,
+      "p_a_better": 0.66,
+      "convincing": false
+    },
+    {
+      "outcome": "visit",
+      "k": 0.5,
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.007509974184463697,
+      "lo": -0.02490025815536258,
+      "hi": 0.015289838066181633,
+      "p_a_better": 0.32,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.2,
+      "comparison": "T-learner - Random",
+      "diff": -0.27277440705951617,
+      "lo": -1.2730115185468869,
+      "hi": 0.8067415118628684,
+      "p_a_better": 0.3,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.2,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.48737191938056756,
+      "lo": -2.418724936580282,
+      "hi": 1.3126231419402437,
+      "p_a_better": 0.2866666666666667,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.2,
+      "comparison": "X-learner - T-learner",
+      "diff": 0.20985490459530587,
+      "lo": -0.8793885155369942,
+      "hi": 1.5673098155926533,
+      "p_a_better": 0.6666666666666666,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.2,
+      "comparison": "Uplift tree - Random",
+      "diff": 0.3072048814832199,
+      "lo": -0.9873266838770245,
+      "hi": 1.2939721896268477,
+      "p_a_better": 0.6,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.2,
+      "comparison": "Uplift tree - Propensity",
+      "diff": 0.0926073691621685,
+      "lo": -2.312128901666275,
+      "hi": 1.9306882187279966,
+      "p_a_better": 0.5166666666666667,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.3,
+      "comparison": "T-learner - Random",
+      "diff": -0.545626079327467,
+      "lo": -1.4674998985291836,
+      "hi": 0.2813524728158235,
+      "p_a_better": 0.10666666666666667,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.3,
+      "comparison": "T-learner - Propensity",
+      "diff": -1.3074151742191198,
+      "lo": -2.7469237390216676,
+      "hi": 0.031965083076417725,
+      "p_a_better": 0.02666666666666667,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.3,
+      "comparison": "X-learner - T-learner",
+      "diff": 1.0204089941361976,
+      "lo": -0.3773593578182835,
+      "hi": 2.251490790439924,
+      "p_a_better": 0.9166666666666666,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.3,
+      "comparison": "Uplift tree - Random",
+      "diff": 0.36399514980833925,
+      "lo": -0.7243572713760462,
+      "hi": 1.1132346280215903,
+      "p_a_better": 0.6266666666666667,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.3,
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.39779394508331345,
+      "lo": -2.1773458890714235,
+      "hi": 0.6476200813580532,
+      "p_a_better": 0.18333333333333332,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.5,
+      "comparison": "T-learner - Random",
+      "diff": -0.4162673536765771,
+      "lo": -1.0656662246130495,
+      "hi": 0.20223580244251857,
+      "p_a_better": 0.12666666666666668,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.5,
+      "comparison": "T-learner - Propensity",
+      "diff": -0.8099425472930989,
+      "lo": -1.6863771155952105,
+      "hi": 0.05841321428167828,
+      "p_a_better": 0.04,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.5,
+      "comparison": "X-learner - T-learner",
+      "diff": 0.15694107235470833,
+      "lo": -0.571114582815602,
+      "hi": 0.9399877883922556,
+      "p_a_better": 0.62,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.5,
+      "comparison": "Uplift tree - Random",
+      "diff": 0.23435578502698884,
+      "lo": -0.6086032034733633,
+      "hi": 0.7108087890166628,
+      "p_a_better": 0.5,
+      "convincing": false
+    },
+    {
+      "outcome": "spend",
+      "k": 0.5,
+      "comparison": "Uplift tree - Propensity",
+      "diff": -0.15931940858953297,
+      "lo": -1.2102257685989204,
+      "hi": 0.5151000938746764,
+      "p_a_better": 0.24333333333333335,
+      "convincing": false
+    }
+  ],
+  "version_choice": [
+    {
+      "k": 0.3,
+      "comparison": "T-learner chosen version - T-learner men's for all",
+      "diff": -0.011166544276294349,
+      "lo": -0.02877695628291971,
+      "hi": 0.006846409171074633,
+      "p_a_better": 0.14,
+      "convincing": false
+    },
+    {
+      "k": 0.5,
+      "comparison": "T-learner chosen version - T-learner men's for all",
+      "diff": -0.0152456381903604,
+      "lo": -0.031650718065576025,
+      "hi": -0.0014178384269342861,
+      "p_a_better": 0.01,
+      "convincing": true
+    },
+    {
+      "k": 1.0,
+      "comparison": "T-learner chosen version - T-learner men's for all",
+      "diff": -0.011920855176805523,
+      "lo": -0.0205879889127818,
+      "hi": -0.0032332672721561255,
+      "p_a_better": 0.006666666666666667,
+      "convincing": true
+    }
+  ],
+  "segments": [
+    {
+      "segment": "men's only",
+      "share_of_customers": 0.447578125,
+      "visit_rate_no_email": 0.09720730397422127,
+      "uplift_mens": 0.0713441230586274,
+      "uplift_mens_lo": 0.049636395262813535,
+      "uplift_mens_hi": 0.09305185085444127,
+      "uplift_womens": 0.014732994533241422,
+      "uplift_womens_lo": -0.004534768046182403,
+      "uplift_womens_hi": 0.034000757112665245
+    },
+    {
+      "segment": "women's only",
+      "share_of_customers": 0.45109375,
+      "visit_rate_no_email": 0.10559006211180125,
+      "uplift_mens": 0.057519693985759734,
+      "uplift_mens_lo": 0.03620112276982965,
+      "uplift_mens_hi": 0.07883826520168982,
+      "uplift_womens": 0.06516767534817741,
+      "uplift_womens_lo": 0.04329736792291391,
+      "uplift_womens_hi": 0.08703798277344091
+    },
+    {
+      "segment": "both lines",
+      "share_of_customers": 0.101328125,
+      "visit_rate_no_email": 0.14346895074946467,
+      "uplift_mens": 0.18909985658998488,
+      "uplift_mens_lo": 0.13457198293595182,
+      "uplift_mens_hi": 0.24362773024401793,
+      "uplift_womens": 0.11795236904748965,
+      "uplift_womens_lo": 0.06409688725324802,
+      "uplift_womens_hi": 0.17180785084173128
+    }
+  ],
+  "sensitivity": {
+    "spearman": -0.023141498603238,
+    "top30_overlap": 0.3377604166666667,
+    "same_email": 0.67625,
+    "qini_conversion": [
+      {
+        "email": "Mens E-Mail",
+        "model": "T-learner (visit)",
+        "qini_on_conversion": -0.00023114108276476946,
+        "lo": -0.000833205517636963,
+        "hi": 0.0004471389880742223
+      },
+      {
+        "email": "Mens E-Mail",
+        "model": "T-learner (conversion)",
+        "qini_on_conversion": 7.975379671662508e-06,
+        "lo": -0.0006890016922856045,
+        "hi": 0.0007075005648518393
+      },
+      {
+        "email": "Mens E-Mail",
+        "model": "Propensity",
+        "qini_on_conversion": 0.0005214012229271476,
+        "lo": -8.336672144761857e-05,
+        "hi": 0.001100427261334196
+      },
+      {
+        "email": "Mens E-Mail",
+        "model": "Random",
+        "qini_on_conversion": -0.00023780797270268146,
+        "lo": -0.0009162172527829413,
+        "hi": 0.0004511795204920547
+      },
+      {
+        "email": "Womens E-Mail",
+        "model": "T-learner (visit)",
+        "qini_on_conversion": 0.00041594129892892965,
+        "lo": -0.0001337242047817791,
+        "hi": 0.00106228852412388
+      },
+      {
+        "email": "Womens E-Mail",
+        "model": "T-learner (conversion)",
+        "qini_on_conversion": 0.00015063181124711088,
+        "lo": -0.0003829034845990547,
+        "hi": 0.0006674009097423857
+      },
+      {
+        "email": "Womens E-Mail",
+        "model": "Propensity",
+        "qini_on_conversion": 0.0001783587845035195,
+        "lo": -0.00035490079015324476,
+        "hi": 0.0006837159256016521
+      },
+      {
+        "email": "Womens E-Mail",
+        "model": "Random",
+        "qini_on_conversion": 0.000276425509346501,
+        "lo": -0.00023249567950323608,
+        "hi": 0.0007540388815981381
+      }
+    ]
+  },
+  "economics": {
+    "population": 64000,
+    "cost": 0.15,
+    "margin": 0.3,
+    "best": [
+      {
+        "strategy": "Propensity",
+        "k": 0.4,
+        "n_contacted": 25600.0,
+        "campaign_cost": 3840.0,
+        "incremental_profit": 9483.700539779395,
+        "inc_spend": 44412.33513259798
+      },
+      {
+        "strategy": "Random",
+        "k": 1.0,
+        "n_contacted": 64000.0,
+        "campaign_cost": 9600.0,
+        "incremental_profit": 4708.979112884299,
+        "inc_spend": 47696.597042947666
+      },
+      {
+        "strategy": "T-learner",
+        "k": 0.15,
+        "n_contacted": 9600.0,
+        "campaign_cost": 1440.0,
+        "incremental_profit": 105.14714855667717,
+        "inc_spend": 5150.490495188924
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 0.6,
+        "n_contacted": 38400.0,
+        "campaign_cost": 5760.0,
+        "incremental_profit": 8706.553391222718,
+        "inc_spend": 48221.84463740906
+      },
+      {
+        "strategy": "X-learner",
+        "k": 0.25,
+        "n_contacted": 16000.0,
+        "campaign_cost": 2400.0,
+        "incremental_profit": 4531.015254635063,
+        "inc_spend": 23103.384182116875
+      }
+    ],
+    "everyone": [
+      {
+        "inc_spend": 47696.597042947666,
+        "campaign_cost": 9600.0,
+        "incremental_profit": 4708.979112884299
+      }
+    ],
+    "profit_ci": [
+      {
+        "strategy": "Random",
+        "k": 0.1,
+        "profit": 470.8979112884301,
+        "profit_lo": -797.9442947664866,
+        "profit_hi": 1715.8891527810379
+      },
+      {
+        "strategy": "Random",
+        "k": 0.2,
+        "profit": 941.7958225768602,
+        "profit_lo": -1595.8885895329731,
+        "profit_hi": 3431.7783055620757
+      },
+      {
+        "strategy": "Random",
+        "k": 0.3,
+        "profit": 1412.6937338652897,
+        "profit_lo": -2393.8328842994597,
+        "profit_hi": 5147.667458343114
+      },
+      {
+        "strategy": "Random",
+        "k": 0.5,
+        "profit": 2354.4895564421495,
+        "profit_lo": -3989.721473832433,
+        "profit_hi": 8579.445763905189
+      },
+      {
+        "strategy": "Random",
+        "k": 1.0,
+        "profit": 4708.979112884299,
+        "profit_lo": -7979.442947664866,
+        "profit_hi": 17158.891527810378
+      },
+      {
+        "strategy": "Propensity",
+        "k": 0.1,
+        "profit": 4357.106782445436,
+        "profit_lo": -1796.7432996949078,
+        "profit_hi": 11234.833137761072
+      },
+      {
+        "strategy": "Propensity",
+        "k": 0.2,
+        "profit": 1765.8502698896973,
+        "profit_lo": -4007.1303449894394,
+        "profit_hi": 8885.81046702652
+      },
+      {
+        "strategy": "Propensity",
+        "k": 0.3,
+        "profit": 5800.598920441209,
+        "profit_lo": -2083.958131893923,
+        "profit_hi": 14269.466134710161
+      },
+      {
+        "strategy": "Propensity",
+        "k": 0.5,
+        "profit": 6133.77141516076,
+        "profit_lo": -5804.737667214269,
+        "profit_hi": 17417.75695846045
+      },
+      {
+        "strategy": "Propensity",
+        "k": 1.0,
+        "profit": 4708.979112884297,
+        "profit_lo": -7979.442947664868,
+        "profit_hi": 17158.891527810374
+      },
+      {
+        "strategy": "T-learner",
+        "k": 0.1,
+        "profit": -719.0199483689273,
+        "profit_lo": -3730.0168035672377,
+        "profit_hi": 3968.378878197598
+      },
+      {
+        "strategy": "T-learner",
+        "k": 0.2,
+        "profit": -105.65790053168212,
+        "profit_lo": -3987.3051019833824,
+        "profit_hi": 4699.268003711538
+      },
+      {
+        "strategy": "T-learner",
+        "k": 0.3,
+        "profit": -1730.1124830609199,
+        "profit_lo": -6195.895365415081,
+        "profit_hi": 2926.5577615958373
+      },
+      {
+        "strategy": "T-learner",
+        "k": 0.5,
+        "profit": -1641.6770388529903,
+        "profit_lo": -9692.187748037997,
+        "profit_hi": 7072.684385896018
+      },
+      {
+        "strategy": "T-learner",
+        "k": 1.0,
+        "profit": -4236.154045317239,
+        "profit_lo": -14397.31896080864,
+        "profit_hi": 7772.262608682482
+      },
+      {
+        "strategy": "X-learner",
+        "k": 0.1,
+        "profit": -538.0145505749822,
+        "profit_lo": -4078.4961276695612,
+        "profit_hi": 2498.2191973715067
+      },
+      {
+        "strategy": "X-learner",
+        "k": 0.2,
+        "profit": 700.1849331142921,
+        "profit_lo": -4452.45228819526,
+        "profit_hi": 6593.409997653131
+      },
+      {
+        "strategy": "X-learner",
+        "k": 0.3,
+        "profit": 4147.443323163578,
+        "profit_lo": -2954.1921614644457,
+        "profit_hi": 11792.10401314245
+      },
+      {
+        "strategy": "X-learner",
+        "k": 0.5,
+        "profit": -135.04274424779032,
+        "profit_lo": -10340.525343233403,
+        "profit_hi": 9463.08855140379
+      },
+      {
+        "strategy": "X-learner",
+        "k": 1.0,
+        "profit": 2099.0995074871007,
+        "profit_lo": -10790.24329248644,
+        "profit_hi": 13765.24942271351
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 0.1,
+        "profit": 764.7106313072045,
+        "profit_lo": -2222.7210513963855,
+        "profit_hi": 4302.074067120393
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 0.2,
+        "profit": 2121.462567472424,
+        "profit_lo": -3162.81361182821,
+        "profit_hi": 6085.679042478286
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 0.3,
+        "profit": 3509.305796761323,
+        "profit_lo": -3823.3413752640217,
+        "profit_hi": 8611.348697488853
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 0.5,
+        "profit": 4604.305092701243,
+        "profit_lo": -5919.525369631542,
+        "profit_hi": 10668.624642102774
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 1.0,
+        "profit": 4708.979112884295,
+        "profit_lo": -7979.442947664867,
+        "profit_hi": 17158.89152781037
+      }
+    ],
+    "cost_sensitivity": [
+      {
+        "cost_per_contact": 0.05,
+        "strategy": "Propensity",
+        "best_k": 0.4,
+        "profit_at_best_k": 12043.700539779395
+      },
+      {
+        "cost_per_contact": 0.05,
+        "strategy": "Random",
+        "best_k": 1.0,
+        "profit_at_best_k": 11108.979112884299
+      },
+      {
+        "cost_per_contact": 0.05,
+        "strategy": "T-learner",
+        "best_k": 0.95,
+        "profit_at_best_k": 3788.1557411178637
+      },
+      {
+        "cost_per_contact": 0.05,
+        "strategy": "Uplift tree",
+        "best_k": 0.6,
+        "profit_at_best_k": 12546.553391222718
+      },
+      {
+        "cost_per_contact": 0.05,
+        "strategy": "X-learner",
+        "best_k": 0.95,
+        "profit_at_best_k": 8587.76977268306
+      },
+      {
+        "cost_per_contact": 0.15,
+        "strategy": "Propensity",
+        "best_k": 0.4,
+        "profit_at_best_k": 9483.700539779395
+      },
+      {
+        "cost_per_contact": 0.15,
+        "strategy": "Random",
+        "best_k": 1.0,
+        "profit_at_best_k": 4708.979112884299
+      },
+      {
+        "cost_per_contact": 0.15,
+        "strategy": "T-learner",
+        "best_k": 0.15,
+        "profit_at_best_k": 105.14714855667717
+      },
+      {
+        "cost_per_contact": 0.15,
+        "strategy": "Uplift tree",
+        "best_k": 0.6,
+        "profit_at_best_k": 8706.553391222718
+      },
+      {
+        "cost_per_contact": 0.15,
+        "strategy": "X-learner",
+        "best_k": 0.25,
+        "profit_at_best_k": 4531.015254635063
+      },
+      {
+        "cost_per_contact": 0.3,
+        "strategy": "Propensity",
+        "best_k": 0.4,
+        "profit_at_best_k": 5643.700539779395
+      },
+      {
+        "cost_per_contact": 0.3,
+        "strategy": "Random",
+        "best_k": 0.0,
+        "profit_at_best_k": 0.0
+      },
+      {
+        "cost_per_contact": 0.3,
+        "strategy": "T-learner",
+        "best_k": 0.0,
+        "profit_at_best_k": 0.0
+      },
+      {
+        "cost_per_contact": 0.3,
+        "strategy": "Uplift tree",
+        "best_k": 0.6,
+        "profit_at_best_k": 2946.5533912227183
+      },
+      {
+        "cost_per_contact": 0.3,
+        "strategy": "X-learner",
+        "best_k": 0.25,
+        "profit_at_best_k": 2131.015254635063
+      },
+      {
+        "cost_per_contact": 0.5,
+        "strategy": "Propensity",
+        "best_k": 0.1,
+        "profit_at_best_k": 2117.106782445436
+      },
+      {
+        "cost_per_contact": 0.5,
+        "strategy": "Random",
+        "best_k": 0.0,
+        "profit_at_best_k": 0.0
+      },
+      {
+        "cost_per_contact": 0.5,
+        "strategy": "T-learner",
+        "best_k": 0.0,
+        "profit_at_best_k": 0.0
+      },
+      {
+        "cost_per_contact": 0.5,
+        "strategy": "Uplift tree",
+        "best_k": 0.0,
+        "profit_at_best_k": 0.0
+      },
+      {
+        "cost_per_contact": 0.5,
+        "strategy": "X-learner",
+        "best_k": 0.0,
+        "profit_at_best_k": 0.0
+      }
+    ]
+  },
+  "economics_visit": {
+    "value_per_visit": {
+      "pooled": 7.01762775017743,
+      "Mens E-Mail": 7.360201198630137,
+      "No E-Mail": 6.317899778924098,
+      "Womens E-Mail": 7.094457025218734
+    },
+    "value": 7.01762775017743,
+    "bridge_check": [
+      {
+        "email": "Mens E-Mail",
+        "incremental visits x value": 0.5385506393588406,
+        "observed incremental spend": 0.7452593287960576
+      },
+      {
+        "email": "Womens E-Mail",
+        "incremental visits x value": 0.31856005668110543,
+        "observed incremental spend": 0.28983510379702015
+      }
+    ],
+    "best": [
+      {
+        "strategy": "Propensity",
+        "k": 0.7,
+        "n_contacted": 44800.0,
+        "inc_visits": 3724.947195494017,
+        "campaign_cost": 6720.0,
+        "incremental_profit": 1122.0878421133202,
+        "break_even_cost": 0.17504660361860092,
+        "cost_per_inc_visit": 1.8040524193548382
+      },
+      {
+        "strategy": "Random",
+        "k": 1.0,
+        "n_contacted": 64000.0,
+        "inc_visits": 4911.523116639286,
+        "campaign_cost": 9600.0,
+        "incremental_profit": 740.172275689738,
+        "break_even_cost": 0.1615651918076521,
+        "cost_per_inc_visit": 1.954587155963303
+      },
+      {
+        "strategy": "T-learner",
+        "k": 0.15,
+        "n_contacted": 9600.0,
+        "inc_visits": 734.3659328401076,
+        "campaign_cost": 1440.0,
+        "incremental_profit": 106.052024725102,
+        "break_even_cost": 0.16104708590886477,
+        "cost_per_inc_visit": 1.9608752743075966
+      },
+      {
+        "strategy": "Uplift tree",
+        "k": 0.55,
+        "n_contacted": 35200.0,
+        "inc_visits": 2958.5095858398167,
+        "campaign_cost": 5280.0,
+        "incremental_profit": 948.5156906266293,
+        "break_even_cost": 0.17694646848371107,
+        "cost_per_inc_visit": 1.7846824040291875
+      },
+      {
+        "strategy": "X-learner",
+        "k": 1.0,
+        "n_contacted": 64000.0,
+        "inc_visits": 4768.524641389625,
+        "campaign_cost": 9600.0,
+        "incremental_profit": 439.11925524621074,
+        "break_even_cost": 0.15686123836322208,
+        "cost_per_inc_visit": 2.0132012985052765
+      }
+    ],
+    "everyone": {
+      "inc_visits": 4911.523116639286,
+      "campaign_cost": 9600.0,
+      "incremental_profit": 740.172275689738,
+      "break_even_cost": 0.1615651918076521,
+      "cost_per_inc_visit": 1.954587155963303
+    },
+    "break_even": [
+      {
+        "k": 0.1,
+        "Propensity": 0.30139072477880063,
+        "Random": 0.1615651918076521,
+        "T-learner": 0.07869989334635086,
+        "Uplift tree": 0.2075149252575349,
+        "X-learner": 0.14314667724790534
+      },
+      {
+        "k": 0.2,
+        "Propensity": 0.19763326215003318,
+        "Random": 0.1615651918076521,
+        "T-learner": 0.15028304895679426,
+        "Uplift tree": 0.2149261725881611,
+        "X-learner": 0.12330481514097696
+      },
+      {
+        "k": 0.3,
+        "Propensity": 0.20092714985253382,
+        "Random": 0.1615651918076521,
+        "T-learner": 0.1461264213827061,
+        "Uplift tree": 0.1729291043812791,
+        "X-learner": 0.12167750526270808
+      },
+      {
+        "k": 0.5,
+        "Propensity": 0.18281076748878067,
+        "Random": 0.1615651918076521,
+        "T-learner": 0.148737970777129,
+        "Uplift tree": 0.16700010651677813,
+        "X-learner": 0.11928539438984015
+      },
+      {
+        "k": 1.0,
+        "Propensity": 0.1615651918076521,
+        "Random": 0.1615651918076521,
+        "T-learner": 0.13646835457927312,
+        "Uplift tree": 0.16156519180765214,
+        "X-learner": 0.15686123836322208
+      }
+    ],
+    "decision_map": [
+      {
+        "cost_per_contact": 0.05,
+        "best_strategy": "Uplift tree",
+        "best_k": 1.0,
+        "best_profit": 7140.17227568974,
+        "everyone_profit": 7140.172275689738,
+        "gain_vs_everyone": 1.8189894035458565e-12
+      },
+      {
+        "cost_per_contact": 0.075,
+        "best_strategy": "Uplift tree",
+        "best_k": 1.0,
+        "best_profit": 5540.17227568974,
+        "everyone_profit": 5540.172275689738,
+        "gain_vs_everyone": 1.8189894035458565e-12
+      },
+      {
+        "cost_per_contact": 0.1,
+        "best_strategy": "Propensity",
+        "best_k": 0.95,
+        "best_profit": 4007.2017001376917,
+        "everyone_profit": 3940.172275689738,
+        "gain_vs_everyone": 67.02942444795372
+      },
+      {
+        "cost_per_contact": 0.125,
+        "best_strategy": "Propensity",
+        "best_k": 0.95,
+        "best_profit": 2487.2017001376917,
+        "everyone_profit": 2340.172275689738,
+        "gain_vs_everyone": 147.02942444795372
+      },
+      {
+        "cost_per_contact": 0.15,
+        "best_strategy": "Propensity",
+        "best_k": 0.7,
+        "best_profit": 1122.0878421133202,
+        "everyone_profit": 740.172275689738,
+        "gain_vs_everyone": 381.9155664235823
+      },
+      {
+        "cost_per_contact": 0.175,
+        "best_strategy": "Propensity",
+        "best_k": 0.1,
+        "best_profit": 808.9006385843238,
+        "everyone_profit": -859.827724310262,
+        "gain_vs_everyone": 1668.7283628945859
+      },
+      {
+        "cost_per_contact": 0.2,
+        "best_strategy": "Propensity",
+        "best_k": 0.1,
+        "best_profit": 648.9006385843238,
+        "everyone_profit": -2459.827724310262,
+        "gain_vs_everyone": 3108.728362894586
+      },
+      {
+        "cost_per_contact": 0.225,
+        "best_strategy": "Propensity",
+        "best_k": 0.05,
+        "best_profit": 513.2315558162072,
+        "everyone_profit": -4059.827724310262,
+        "gain_vs_everyone": 4573.059280126469
+      },
+      {
+        "cost_per_contact": 0.25,
+        "best_strategy": "Propensity",
+        "best_k": 0.05,
+        "best_profit": 433.2315558162072,
+        "everyone_profit": -5659.827724310262,
+        "gain_vs_everyone": 6093.059280126469
+      },
+      {
+        "cost_per_contact": 0.275,
+        "best_strategy": "Propensity",
+        "best_k": 0.05,
+        "best_profit": 353.2315558162071,
+        "everyone_profit": -7259.827724310262,
+        "gain_vs_everyone": 7613.059280126469
+      },
+      {
+        "cost_per_contact": 0.3,
+        "best_strategy": "Propensity",
+        "best_k": 0.05,
+        "best_profit": 273.2315558162072,
+        "everyone_profit": -8859.827724310262,
+        "gain_vs_everyone": 9133.059280126468
+      }
+    ],
+    "womens_campaign": [
+      {
+        "strategy": "Everyone",
+        "share": 1.0,
+        "contacts": 64000.0,
+        "inc_visits": 2905.232986613642,
+        "share_of_lift": 1.0,
+        "cost": 9600.0,
+        "cost_per_inc_visit": 3.3043821422356285,
+        "profit": -3483.646911722776
+      },
+      {
+        "strategy": "Propensity",
+        "share": 0.5,
+        "contacts": 32000.0,
+        "inc_visits": 1920.2925889907333,
+        "share_of_lift": 0.6609771394717084,
+        "cost": 4800.0,
+        "cost_per_inc_visit": 2.499619082799659,
+        "profit": -757.2304317115704
+      },
+      {
+        "strategy": "T-learner",
+        "share": 0.5,
+        "contacts": 32000.0,
+        "inc_visits": 2355.5215219575257,
+        "share_of_lift": 0.8107857555008476,
+        "cost": 4800.0,
+        "cost_per_inc_visit": 2.037765291149207,
+        "profit": 159.05195958879176
+      },
+      {
+        "strategy": "Uplift tree",
+        "share": 0.5,
+        "contacts": 32000.0,
+        "inc_visits": 2446.782267055733,
+        "share_of_lift": 0.8421982947081011,
+        "cost": 4800.0,
+        "cost_per_inc_visit": 1.9617601715644055,
+        "profit": 351.18214077970606
+      },
+      {
+        "strategy": "Propensity",
+        "share": 0.3,
+        "contacts": 19200.0,
+        "inc_visits": 1257.5803144224199,
+        "share_of_lift": 0.4328672847296366,
+        "cost": 2880.0,
+        "cost_per_inc_visit": 2.290112183668145,
+        "profit": -232.43084622971082
+      },
+      {
+        "strategy": "T-learner",
+        "share": 0.3,
+        "contacts": 19200.0,
+        "inc_visits": 1596.9362560330887,
+        "share_of_lift": 0.5496757965337877,
+        "cost": 2880.0,
+        "cost_per_inc_visit": 1.8034533245266404,
+        "profit": 482.0112556806753
+      },
+      {
+        "strategy": "Uplift tree",
+        "share": 0.3,
+        "contacts": 19200.0,
+        "inc_visits": 1666.8509984639015,
+        "share_of_lift": 0.5737409034470566,
+        "cost": 2880.0,
+        "cost_per_inc_visit": 1.727808905927455,
+        "profit": 629.2019466693696
+      }
+    ]
+  }
+}

@@ -27,5 +27,7 @@ __MACOSX/
 reports/project_guide.pdf
 reports/project_guide.html
 reports/build_guide.py
+*.pptx
+tools/update_deck.py
 
 

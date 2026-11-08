@@ -96,7 +96,8 @@ Built with **Streamlit**, the dashboard includes three views:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/noursag/ai-marketing-uplift-optimization
+git clone https://github.com/noursag/ai-marketing-uplift-optimization.git
+cd ai-marketing-uplift-optimization
 ```
 
 ### 2. Create and activate a virtual environment
@@ -165,22 +166,15 @@ The current project version passes **22 unit tests**.
 
 ```text
 ├── app/                # Streamlit dashboard
-├── data/               # Raw and processed datasets
-├── models/             # Saved trained models
-├── notebooks/          # EDA, training, evaluation, robustness
-├── reports/
-│   ├── figures/        # Generated charts
-│   └── results/        # Evaluation results
-├── src/
-│   ├── config.py
-│   ├── preprocessing.py
-│   ├── models.py
-│   ├── crossfit.py
-│   ├── evaluation.py
-│   ├── simulation.py
-│   └── messaging.py
+├── data/               # Datasets and predictions
+├── models/             # Trained models
+├── notebooks/          # Analysis and evaluation
+├── reports/            # Figures and results
+├── src/                # ML and evaluation code
 ├── tests/              # Unit tests
+├── tools/              # Execution utilities
 ├── requirements.txt
+├── requirements-lock.txt
 ├── run_all.py
 └── README.md
 ```
